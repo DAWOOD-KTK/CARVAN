@@ -1,0 +1,236 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+  
+}
+
+.navbar-brand img {
+    height: 3em;
+    width: 3em;
+    margin-right: 30px;
+} 
+
+.nav-item {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ 
+}
+
+/* contact-us */
+#contact-us {
+  height: 70vh;
+  margin: 0px auto;
+  margin-top: 5vh;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact-us form {
+height: 100%;
+width: 95%;
+margin: 0px auto;
+border-radius: 10px;
+}
+
+#contact-us form input {
+  width: 80%;
+  margin: 0px auto;
+}
+
+#contact-us form textarea {
+  width: 80%;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.map {
+  border-radius: 10px;
+  height: 87%;
+}
+
+
+/* contact-us end */
+
+.dropdown-menu {
+display: none;
+visibility: hidden;
+transform: translateY(10px);
+transition: all 0.4s ease; /* slow and smooth */
+position: absolute;
+top: 100%;
+left: 0;
+background-color: white;
+width: 550px;
+padding: 20px;
+border-radius: 5;
+border-bottom: 5px solid rgb(162, 0, 0);
+font-family: 'Times New Roman', Times, serif;
+}
+
+.dropdown:hover .dropdown-menu {
+
+display: block;
+visibility: visible;
+transform: translateY(0px);
+
+}
+
+  .dropdown-menu .column {
+    padding: 10px;
+  }
+
+  .dropdown-menu  h6 {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .dropdown-menu  h5 {
+    font-size: 16px;
+    font-weight: bold;
+  margin-left: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .dropdown-menu a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .dropdown-menu a:hover {
+    color: #007bff;
+  }
+.sign-in-modal input{
+  background-color: #ccc;
+}
+.roc-menu{
+
+width: fit-content;
+
+}
+
+
+                /* navbar end */  
+
+
+                  /* Car Modals */
+             
+#toyota {
+    margin-top: 10vh;
+}
+
+#th {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+ .card:hover{
+  box-shadow:  0px 0px 10px rgb(143, 60, 60) ;
+  transition: 0.5s;
+} 
+.card {
+  height: 60vh;
+}
+.card-body{
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-modal{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: capitalize;
+}
+
+.modal img{
+width: 100%;
+height: 60vh;
+}
+
+.car-details {
+  padding-left: 10px;
+  border-left: 1px solid #444;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.car-details p{
+  color: green;
+  display: inline;
+  font-size: x-large;
+  font-weight: bold;
+}
+.car-details h4{
+  font-size: xx-large;
+  color: wheat;
+  font-weight: bolder;
+}
+.car-details h3{
+  text-transform: capitalize;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card .card-modal{
+    width: 50%;
+   margin-top: 2%;
+}
+.list-unstyled strong{
+  color: rgb(161, 143, 87);
+  font-size: 20px;
+}
+
+
+
+                 /* footer start */
+footer a, p{
+  font-weight: normal;
+  
+  
+}
+footer h6{
+  font-size: larger;
+ color: lightsteelblue;
+}
+
+
+footer {
+  margin-top: 20vh;
+}
+
+/* header css */
+
+.hero-image img {
+  width: 100%;
+  height: 80vh; 
+  display: block;
+}
+
+
+.future-head{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-future{
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+.card-future:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3); 
+}
+
+.card-future img {
+  height: 50%;
+}
+ 
